@@ -126,7 +126,7 @@ border-radius: 6px;behavior:url(css/PIE.htc);}
 
 #container .threebtn{ width:310px; margin:0 auto;}
 #container .threebtn li{ float:left; width:100px; height:60px; margin-right:5px; text-align:center; background:#1ba0e1;}
-#container .threebtn li a{ display:inline-block; width:90px; height:60px; color:#fff; line-height:60px; font-size:18px;}
+#container .threebtn li a{ display:inline-block; width:90px; height:60px; color:#fff; line-height:60px; font-size:15px;}
 #container .threebtn li.libtn3{ margin-right:0;}
 #container .threebtn li.libtn3 a{ line-height:30px;}
 
