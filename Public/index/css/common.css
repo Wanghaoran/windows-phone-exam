@@ -51,7 +51,7 @@ html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
 #container ul.jptext li.litext2 p{ line-height:18px;}
 
 #container ul.jpbtn{ padding:6px 0 0 2px;}
-#container ul.jpbtn li{ float:left; height:96px; color:#fff;}
+#container ul.jpbtn li{ float:left; height:90px; color:#fff;}
 #container ul.jpbtn li.libtn1{ width:96px; margin:0 6px 0 0;background:#e3c800; text-align:center;}
 #container ul.jpbtn li.libtn1 a{display:inline-block; width:96px; height:96px;line-height:96px;}
 #container ul.jpbtn li.libtn1 a img{ border:0; vertical-align:middle;}
