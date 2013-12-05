@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Windows Phone 达人等级测试</title>
+<meta http-equiv="Cache-Control" content="max-age=3600">
+<meta name="MobileOptimized" content="240">
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/common.css">
+</head>
+<body>
+<div id="container">
+    <div class="logo"><a href="#"><img src="__PUBLIC__/index/images/logo.png" width="138" height="20" border="0"/></a></div>
+    <div class="top_title">达人等级测试</div>
+    <div class="clear40"></div>
+    <div class="jpbox">
+        <ul class="<-{$q.color_q}->">
+        	<li class="litest1">
+            	<div class="num"><-{$number}-></div>
+            </li>
+            <li class="litest2"><p><-{$a.q}-></p></li>
+        </ul>
+        <div class="clear40"></div>
+        <volist name="a.a" id="a">
+        <ul class="<-{$q.color_a}->">
+        	<li class="lian1">
+            	<a href="__ACTION__/gid/<-{$group}->/qid/<-{$question}->/select/<-{$key}->"><span><-{$key}->.</span><-{$a}-> </a>
+            </li>
+            <li class="lian2"><a href="__ACTION__/gid/<-{$group}->/qid/<-{$question}->/select/<-{$key}->"><img src="__PUBLIC__/index/icons/<-{$group}->-<-{$question}->-<-{$key}->.png"/></a></li>
+        </ul>
+        <div class="clear6"></div>
+        </volist>
+
+        <div class="clear40"></div>
+    </div>
+</div>
+</body>
+</html>
