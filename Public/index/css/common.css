@@ -33,7 +33,7 @@ html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
 
 /* ��ҳͷ�� */
 #container .logo{ height:20px; padding:3px 10px;}
-#container .top_title{ height:38px; line-height:38px; font-size:25px; text-align:left; text-align:left; padding:0 0 0 10px; color:#fff;}
+#container .top_title{ height:27px; line-height:23px; font-size:21px; text-align:left; text-align:left; padding:0 0 0 10px; color:#fff;}
 #container .jpbox{ width:300px; margin:0px auto;}
 #container .jp1{ float:left; width:196px; padding:0 4px 0 2px;}
 #container .jp2{ float:left; width:96px; padding:0 0 0 2px;}
