@@ -37,7 +37,7 @@ html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
 #container .jpbox{ width:300px; margin:0px auto;}
 #container .jp1{ float:left; width:196px; padding:0 4px 0 2px;}
 #container .jp2{ float:left; width:96px; padding:0 0 0 2px;}
-#container ul.jplist li.li1{ height:30px; line-height:30px; color:#fefefe; font-size:14px;}
+#container ul.jplist li.li1{ height:22px; line-height:19px; color:#fefefe; font-size:13px;}
 #container ul.jplist li.li2{ height:23px; line-height:19px; color:#fff; font-size:14px;}
 #container ul.jplist li.li3{ height:155px;}
 #container ul.jplist li.li3 img{ border:none;}
