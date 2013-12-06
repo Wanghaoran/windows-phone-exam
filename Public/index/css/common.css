@@ -107,28 +107,28 @@ html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
 #container ul.answer3 li.lian2 a{ display:inline-block; width:96px; height:96px;}
 #container ul.answer3 li.lian2 a img{ width:96px; height:96px; border:0;}
 
-#container .certificate{ width:210px; height:400px; background:#f1e30b; padding:5px; margin:10px auto;}
-#container .certcon{ width:210px; height:400px; background:#000; 
+#container .certificate{ width:210px; height:380px; background:#f1e30b; padding:5px; margin:10px auto 0;}
+#container .certcon{ width:210px; height:380px; background:#000; 
 -moz-border-radius: 6px;   
 -webkit-border-radius: 6px;
 border-radius: 6px;behavior:url(css/PIE.htc);}
-#container .certlogo{ width:185px; height:90px; margin:0 auto; text-align:center;}
+#container .certlogo{ width:173px; height:85px; margin:0 auto; text-align:center;}
 #container .certlogo img{ border:0; vertical-align:middle; margin-top:5px;}
-#container .certimg{ width:186px; margin:0 auto;}
-#container .certimg li{ float:left; width:58px; margin-right:6px;}
-#container .certimg li a img{ width:58px; height:58px; border:0; background:#999;}
+#container .certimg{ width:177px; margin:0 auto;}
+#container .certimg li{ float:left; width:55px; margin-right:4px;}
+#container .certimg li a img{ width:55px; height:55px; border:0; background:#999;}
 #container .certimg li.lithree{ margin-right:0;}
-#container .certindex{ width:186px; margin:0 auto;}
-#container .certindex li{ width:186px; height:65px; background:#fa6900; margin-bottom:6px; color:#fff; text-align:center; padding-top:5px;}
-#container .certindex li div{ line-height:15px; font-size:14px;}
-#container .certindex li div.next{ line-height:20px; font-size:14px; margin:5px;}
+#container .certindex{ width:173px; margin:0 auto;}
+#container .certindex li{ width:173px; height:60px; background:#fa6900; margin-bottom:4px; color:#fff; text-align:center; padding-top:5px;}
+#container .certindex li div{ line-height:9px; font-size:12px;}
+#container .certindex li div.next{ line-height:20px; font-size:12px; margin:5px;}
 #container .certfoot{ width:200px; height:50px; margin:0 auto; text-align:center;}
 
 #container .threebtn{ width:310px; margin:0 auto;}
-#container .threebtn li{ float:left; width:100px; height:60px; margin-right:5px; text-align:center; background:#1ba0e1;}
-#container .threebtn li a{ display:inline-block; width:90px; height:60px; color:#fff; line-height:60px; font-size:15px;}
+#container .threebtn li{ float:left; width:100px; height:40px; margin-right:5px; text-align:center; background:#1ba0e1;}
+#container .threebtn li a{ display:inline-block; width:90px; height:40px; color:#fff; line-height:40px; font-size:12px;}
 #container .threebtn li.libtn3{ margin-right:0;}
-#container .threebtn li.libtn3 a{ line-height:30px;}
+#container .threebtn li.libtn3 a{ line-height:20px;}
 
 #container ul.sharebtn{ padding:6px 0 0 2px; margin:0 auto; width:298px;}
 #container ul.sharebtn li{ float:left; height:96px; color:#fff;}
