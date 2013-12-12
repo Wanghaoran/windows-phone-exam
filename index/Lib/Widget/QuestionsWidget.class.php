@@ -134,7 +134,7 @@ class QuestionsWidget extends Action {
                     'q' => '有那么一款应用，在手机上通过时间、地点双经纬整理生成你的专属影像故事，你知道是什么吗？',
                     'a' => array(
                         'A' => '影像日志',
-                        'B' => 'Onenote',
+                        'B' => 'OneNote',
                     ),
                     'right' => 'A',
                 ),

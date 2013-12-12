@@ -27,7 +27,7 @@ a:hover{text-decoration:none;color:#F40;outline:none;}
 .clear30{ clear:both; height:30px;}
 .clear40{ clear:both; height:40px;}
 
-body{ background:#000; font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, ,Arial, Geneva, sans-serif;}
+body{ background:#000; font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, Arial, Geneva, sans-serif;}
 html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */ 
 #container{ margin:5px auto; background:#282828; width:310px;}
 
