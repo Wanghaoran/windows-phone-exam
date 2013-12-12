@@ -27,7 +27,7 @@ a:hover{text-decoration:none;color:#F40;outline:none;}
 .clear30{ clear:both; height:30px;}
 .clear40{ clear:both; height:40px;}
 
-body{ background:#000;}
+body{ background:#000; font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, ,Arial, Geneva, sans-serif;}
 html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */ 
 #container{ margin:5px auto; background:#282828; width:310px;}
 
@@ -63,21 +63,21 @@ html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
 #container ul.test1{ padding:6px 0 0 2px;}
 #container ul.test1 li{ float:left; height:96px;background:#60aa17; color:#fff;}
 #container ul.test1 li.litest1{ width:96px; margin:0 6px 0 0;}
-#container ul.test1 li.litest1 div.num{ line-height:25px; background:url(../images/icon_q1.png) top left no-repeat; padding:26px 0 0 26px; width:30px; height:30px; line-height:30px; margin:20px 0 0 20px; text-align:center; font-size:32px; font-weight:400;}
+#container ul.test1 li.litest1 div.num{ line-height:25px; background:url(../images/icon_q1.png) top left no-repeat; background-size:36px 38px; padding:26px 0 0 26px; width:30px; height:30px; line-height:30px; margin:20px 0 0 20px; text-align:center; font-size:32px; font-weight:400;}
 #container ul.test1 li.litest2{ width:196px;}
 #container ul.test1 li.litest2 p{ vertical-align:middle; line-height:20px; font-size:14px; width:180px; padding:8px;}
 
 #container ul.test2{ padding:6px 0 0 2px;}
 #container ul.test2 li{ float:left; height:96px;background:#1ba0e1; color:#fff;}
 #container ul.test2 li.litest1{ width:96px; margin:0 6px 0 0;}
-#container ul.test2 li.litest1 div.num{ line-height:25px; background:url(../images/icon_q2.png) top left no-repeat; padding:26px 0 0 26px; width:30px; height:30px; line-height:30px; margin:20px 0 0 20px; text-align:center; font-size:32px; font-weight:400;}
+#container ul.test2 li.litest1 div.num{ line-height:25px; background:url(../images/icon_q2.png) top left no-repeat; background-size:36px 38px; padding:26px 0 0 26px; width:30px; height:30px; line-height:30px; margin:20px 0 0 20px; text-align:center; font-size:32px; font-weight:400;}
 #container ul.test2 li.litest2{ width:196px;}
 #container ul.test2 li.litest2 p{ vertical-align:middle; line-height:20px; font-size:14px; width:180px; padding:8px;}
 
 #container ul.test3{ padding:6px 0 0 2px;}
 #container ul.test3 li{ float:left; height:96px;background:#f1a30b; color:#fff;}
 #container ul.test3 li.litest1{ width:96px; margin:0 6px 0 0;}
-#container ul.test3 li.litest1 div.num{ line-height:25px; background:url(../images/icon_q3.png) top left no-repeat; padding:26px 0 0 26px; width:30px; height:30px; line-height:30px; margin:20px 0 0 20px; text-align:center; font-size:32px; font-weight:400;}
+#container ul.test3 li.litest1 div.num{ line-height:25px; background:url(../images/icon_q3.png) top left no-repeat; background-size:36px 38px; padding:26px 0 0 26px; width:30px; height:30px; line-height:30px; margin:20px 0 0 20px; text-align:center; font-size:32px; font-weight:400;}
 #container ul.test3 li.litest2{ width:196px;}
 #container ul.test3 li.litest2 p{ vertical-align:middle; line-height:20px; font-size:14px; width:180px; padding:8px;}
 
