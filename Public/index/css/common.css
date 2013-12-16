@@ -54,10 +54,10 @@ html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
 #container ul.jpbtn{ padding:6px 0 0 2px;}
 #container ul.jpbtn li{ float:left; height:90px; color:#fff;}
 #container ul.jpbtn li.libtn1{ width:96px; margin:0 6px 0 0;background:#e3c800; text-align:center;}
-#container ul.jpbtn li.libtn1 a{display:inline-block; width:96px; height:96px;line-height:96px;}
+#container ul.jpbtn li.libtn1 a{display:inline-block; width:96px; height:90px; line-height:90px;}
 #container ul.jpbtn li.libtn1 a img{ border:0; vertical-align:middle;}
 #container ul.jpbtn li.libtn2{ width:196px; background:#fa6900; text-align:center;}
-#container ul.jpbtn li.libtn2 a{ display:inline-block; width:196px; height:96px;line-height:96px; font-size:22px; font-weight:400; color:#fff;}
+#container ul.jpbtn li.libtn2 a{ display:inline-block; width:196px; height:90px;line-height:90px; font-size:22px; font-weight:400; color:#fff;}
 
 /* ����ҳ */
 #container ul.test1{ padding:6px 0 0 2px;}
@@ -133,11 +133,11 @@ border-radius: 6px;behavior:url(css/PIE.htc);}
 
 #container ul.sharebtn{ padding:6px 0 0 2px; margin:0 auto; width:298px;}
 #container ul.sharebtn li{ float:left; height:66px; color:#fff;}
-#container ul.sharebtn li.libtn1{ width:226px; margin:0 6px 0 0;background:#fa6900; text-align:center;}
-#container ul.sharebtn li.libtn1 a{display:inline-block; width:206px; height:61px;line-height:20px; color:#fff; font-size:12px; font-weight:400; text-align:left; padding:5px 10px 0 10px;}
+#container ul.sharebtn li.libtn1{ width:196px; margin:0 6px 0 0;background:#fa6900; text-align:center;}
+#container ul.sharebtn li.libtn1 a{display:inline-block; width:176px; height:61px;line-height:20px; color:#fff; font-size:12px; font-weight:400; text-align:left; padding:5px 10px 0 10px;}
 #container ul.sharebtn li.libtn1 a img{ border:0; vertical-align:middle;}
-#container ul.sharebtn li.libtn2{ width:66px; background:#e3c800 url(../images/icon_row.png) center no-repeat; text-align:center;}
-#container ul.sharebtn li.libtn2 a{ display:inline-block; width:56px; padding-right:10px; height:66px;line-height:66px; font-size:12px; font-weight:400; color:#e3c800;}
+#container ul.sharebtn li.libtn2{ width:96px; background:#e3c800 url(../images/icon_row.png) center no-repeat; text-align:center;}
+#container ul.sharebtn li.libtn2 a{ display:inline-block; width:88px; padding-right:8px; height:66px;line-height:66px; font-size:16px; font-weight:800; color:#e3c800;}
 
 /*���ֲ�*/
 .mydiv {  background:none;  text-align: center;   font-size: 12px;    z-index:99;  left:50%;/*FF IE7*/    

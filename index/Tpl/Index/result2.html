@@ -15,7 +15,8 @@
         #container .certcon{ width:150px; height:290px; background:#000;
             -moz-border-radius: 3px;
             -webkit-border-radius: 3px;
-            border-radius: 3px;behavior:url(css/PIE.htc);}
+            border-radius: 3px;behavior:url(css/PIE.htc); position:relative;}
+        #container .certcon a.alink{ position:absolute; width:150px; height:290px; display:block; z-index:9999;}
         #container .certlogo{ width:132px; height:65px; margin:0 auto; text-align:center;}
         #container .certlogo img{ border:0; vertical-align:middle; margin-top:3px; width:132px; height:57px;}
         #container .certimg{ width:132px; margin:0 auto;}
@@ -32,6 +33,7 @@
 
     </style>
 
+
 </head>
 <body>
 <div id="container">
@@ -40,7 +42,8 @@
     <div class="clear5"></div>
     <div class="certificate">
     	<div class="certcon">
-        	<div class="certlogo"><img src="__PUBLIC__/index/images/certlogo.png" /></div>
+            <a class="alink" href="__ROOT__"></a>
+            <div class="certlogo"><img src="__PUBLIC__/index/images/certlogo.png" /></div>
             <ul class="certimg">
                 <volist name="question" id="q" mod="3">
                     <eq name="mod" value="2">
@@ -67,7 +70,7 @@
     <div class="clear10"></div>
     <ul class="sharebtn">
         	<li class="libtn1">
-            	<a href="#">
+            	<a href="__ROOT__">
                 参与Windows Phone达人测试，与你的好友PK达人等级，就有机会赢取大奖哦！
             	</a>
             </li>
