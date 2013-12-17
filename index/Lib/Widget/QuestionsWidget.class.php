@@ -7,7 +7,7 @@ class QuestionsWidget extends Action {
             'color_a' => 'answer3',
             'question' => array(
                 1 => array(
-                    'q' => '知道Windows Phone Lumia 1520开始屏幕可以支持多少列中号的动态磁贴么？',
+                    'q' => '知道Nokia Lumia 1520开始屏幕可以支持多少列中号的动态磁贴么？',
                     'a' => array(
                         'A' => '2列',
                         'B' => '3列',
@@ -99,7 +99,7 @@ class QuestionsWidget extends Action {
             'color_a' => 'answer1',
             'question' => array(
                 1 => array(
-                    'q' => '做Windows Phone达人，屏幕够大才够料。知道Windows Phone Lumia 1520屏幕尺寸有多大么？',
+                    'q' => '做Windows Phone达人，屏幕够大才够料。知道Nokia Lumia 1520屏幕尺寸有多大么？',
                     'a' => array(
                         'A' => '4.5英寸',
                         'B' => '6英寸',
@@ -107,7 +107,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 2 => array(
-                    'q' => '屏幕大还要分辨率高，不然也只是一个LED广告屏。知道Windows Phone Lumia 1520的屏幕分辨率是多少么？',
+                    'q' => '屏幕大还要分辨率高，不然也只是一个LED广告屏。知道Nokia Lumia 1520的屏幕分辨率是多少么？',
                     'a' => array(
                         'A' => '640P',
                         'B' => '1080P',
@@ -115,7 +115,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 3 => array(
-                    'q' => '屏幕大就能称霸一方？错，性能才是王道！知道Windows Phone Lumia 1520的处理器是几核的么？',
+                    'q' => '屏幕大就能称霸一方？错，性能才是王道！知道Nokia Lumia 1520的处理器是几核的么？',
                     'a' => array(
                         'A' => '2核',
                         'B' => '4核',
@@ -123,7 +123,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 4 => array(
-                    'q' => 'Nokia一向追求细节，不放过一点一滴的美好。知道Windows Phone Lumia 1520的镜头是多少像素么？',
+                    'q' => 'Nokia一向追求细节，不放过一点一滴的美好。知道Nokia Lumia 1520的镜头是多少像素么？',
                     'a' => array(
                         'A' => '2000万像素',
                         'B' => '800万像素',
