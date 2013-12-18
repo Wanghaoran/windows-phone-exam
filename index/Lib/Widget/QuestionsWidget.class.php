@@ -7,7 +7,7 @@ class QuestionsWidget extends Action {
             'color_a' => 'answer3',
             'question' => array(
                 1 => array(
-                    'q' => '知道Nokia Lumia 1520开始屏幕可以支持多少列中号的动态磁贴么？',
+                    'q' => '知道Nokia Lumia 1520开始屏幕可以支持多少列中号的动态磁贴吗？',
                     'a' => array(
                         'A' => '2列',
                         'B' => '3列',
@@ -15,7 +15,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 2 => array(
-                    'q' => '就算是宅男腐女，也需要交流的。有一个应用可以把所有的好友的动态集合在一起，知道它是什么么？',
+                    'q' => '就算是宅男腐女，也需要交流的。有一个应用可以把所有的好友的动态集合在一起，知道它是什么吗？',
                     'a' => array(
                         'A' => '人脉中心',
                         'B' => '房间',
@@ -31,7 +31,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 4 => array(
-                    'q' => '作为一名学霸，时刻都要学习。知道什么应用可以让你随时随地地观看老师的PPT编辑自己未完成的文档么？',
+                    'q' => '作为一名学霸，时刻都要学习。知道什么应用可以让你随时随地地观看老师的PPT编辑自己未完成的文档吗？',
                     'a' => array(
                         'A' => 'Office中心',
                         'B' => '记事本',
@@ -61,7 +61,7 @@ class QuestionsWidget extends Action {
                     'right' => 'A',
                 ),
                 2 => array(
-                    'q' => '最怕出门买衣服交话费，冬天雪地不想动啊！知道下面哪个应用可以轻松帮你解决以上难题么？',
+                    'q' => '最怕出门买衣服交话费，冰天雪地不想动啊！知道下面哪个应用可以轻松帮你解决以上难题吗？',
                     'a' => array(
                         'A' => 'QQ',
                         'B' => '淘宝',
@@ -69,7 +69,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 3 => array(
-                    'q' => '美美的人物就要和美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？',
+                    'q' => '美美的人物就要和美美的风景融为一体，不分彼此。知道下面哪一款相机应用具有双重曝光的功能吗？',
                     'a' => array(
                         'A' => '美图秀秀',
                         'B' => 'Camera 360',
@@ -77,7 +77,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 4 => array(
-                    'q' => '信息爆炸的时代，时间就是一切。新鲜资讯抢先知道，出行理财样样精通，知道这是哪类应用么？',
+                    'q' => '信息爆炸的时代，时间就是一起。新鲜资讯抢先知道，出行理财样样精通，知道这是哪类应用吗？',
                     'a' => array(
                         'A' => '头条新闻',
                         'B' => 'Bing应用',
@@ -85,7 +85,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 5 => array(
-                    'q' => 'Windows Phone照片美容有神器，轻松去痘，还能增白护肤瘦脸扩眼…史上最易上手美图神器，你懂的？',
+                    'q' => 'Windows Phone 照片美容有神器，轻松祛痘，还能增白护肤瘦脸扩眼…史上最易上手美图神器，你懂的？',
                     'a' => array(
                         'A' => 'PS',
                         'B' => '美图秀秀',
@@ -99,7 +99,7 @@ class QuestionsWidget extends Action {
             'color_a' => 'answer1',
             'question' => array(
                 1 => array(
-                    'q' => '做Windows Phone达人，屏幕够大才够料。知道Nokia Lumia 1520屏幕尺寸有多大么？',
+                    'q' => '做Windows Phone达人，屏幕够大才够料。知道Nokia Lumia 1520屏幕尺寸有多大吗？',
                     'a' => array(
                         'A' => '4.5英寸',
                         'B' => '6英寸',
@@ -107,7 +107,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 2 => array(
-                    'q' => '屏幕大还要分辨率高，不然也只是一个LED广告屏。知道Nokia Lumia 1520的屏幕分辨率是多少么？',
+                    'q' => '屏幕大还要分辨率高，不然也只是一个LED广告屏。知道Nokia Lumia 1520的屏幕分辨率是多少吗？',
                     'a' => array(
                         'A' => '640P',
                         'B' => '1080P',
@@ -115,7 +115,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 3 => array(
-                    'q' => '屏幕大就能称霸一方？错，性能才是王道！知道Nokia Lumia 1520的处理器是几核的么？',
+                    'q' => '屏幕大就能称霸一方？错，性能才是王道！知道Nokia Lumia 1520的处理器是几核的吗？',
                     'a' => array(
                         'A' => '2核',
                         'B' => '4核',
@@ -123,7 +123,7 @@ class QuestionsWidget extends Action {
                     'right' => 'B',
                 ),
                 4 => array(
-                    'q' => 'Nokia一向追求细节，不放过一点一滴的美好。知道Nokia Lumia 1520的镜头是多少像素么？',
+                    'q' => 'Nokia一向追求细节，不放过一点一滴的美好。知道Nokia Lumia 1520的镜头是多少像素吗？',
                     'a' => array(
                         'A' => '2000万像素',
                         'B' => '800万像素',
