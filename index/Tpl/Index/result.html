@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>参与Windows Phone达人等级测试赢好礼！</title>
+    <title>参与达人等级测试赢好礼</title>
     <meta http-equiv="Cache-Control" content="max-age=3600">
     <meta name="MobileOptimized" content="240">
     <meta name="apple-touch-fullscreen" content="YES">
@@ -13,72 +13,137 @@
     <style type="text/css" media="screen">
         body { margin:0; padding:0; height:100%;}
     </style>
-    <script type="text/javascript">
+
+
+
+    <script>
         var dataForWeixin={
-            appId:	"",
-            img:	"http://www.cnhtk.cn__UPLOAD__/icon.jpg",
-            url:	"http://www.cnhtk.cn__SELF__",
-            title:	"参与达人等级测试赢好礼",
-            desc:	"立即点击参加获取专属证书，更有机会体验全新Windows Phone！",
-            fakeid:	""
+            <!-- lang: js -->
+            appId:"",
+            <!-- lang: js -->
+            MsgImg:"http://www.cnhtk.cn__UPLOAD__/icon.jpg",
+            <!-- lang: js -->
+            TLImg:"http://www.cnhtk.cn__UPLOAD__/icon.jpg",
+            <!-- lang: js -->
+            url:"http://www.cnhtk.cn__SELF__",
+            <!-- lang: js -->
+            title:"参与达人等级测试赢好礼",
+            <!-- lang: js -->
+            desc:"立即点击参加获取专属证书，更有机会体验全新Windows Phone！",
+            <!-- lang: js -->
+            fakeid:"",
+            <!-- lang: js -->
+            callback:function(){}
+            <!-- lang: js -->
         };
+        <!-- lang: js -->
         (function(){
+            <!-- lang: js -->
             var onBridgeReady=function(){
-                // 发送给好友;
+                <!-- lang: js -->
                 WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                    <!-- lang: js -->
                     WeixinJSBridge.invoke('sendAppMessage',{
-                        "appid":		dataForWeixin.appId,
-                        "img_url":		dataForWeixin.img,
-                        "img_width":	"120",
-                        "img_height":	"120",
-                        "link":				dataForWeixin.url,
-                        "desc":				dataForWeixin.desc,
-                        "title":			dataForWeixin.title
-                    }, function(res){});
+                        <!-- lang: js -->
+                        "appid":dataForWeixin.appId,
+                        <!-- lang: js -->
+                        "img_url":dataForWeixin.MsgImg,
+                        <!-- lang: js -->
+                        "img_width":"120",
+                        <!-- lang: js -->
+                        "img_height":"120",
+                        <!-- lang: js -->
+                        "link":dataForWeixin.url,
+                        <!-- lang: js -->
+                        "desc":dataForWeixin.desc,
+                        <!-- lang: js -->
+                        "title":dataForWeixin.title
+                        <!-- lang: js -->
+                    }, function(res){(dataForWeixin.callback)();});
+                    <!-- lang: js -->
                 });
-                // 分享到朋友圈;
+                <!-- lang: js -->
                 WeixinJSBridge.on('menu:share:timeline', function(argv){
+                    <!-- lang: js -->
+                    (dataForWeixin.callback)();
+                    <!-- lang: js -->
                     WeixinJSBridge.invoke('shareTimeline',{
-                        "img_url":dataForWeixin.img,
+                        <!-- lang: js -->
+                        "img_url":dataForWeixin.TLImg,
+                        <!-- lang: js -->
                         "img_width":"120",
+                        <!-- lang: js -->
                         "img_height":"120",
+                        <!-- lang: js -->
                         "link":dataForWeixin.url,
+                        <!-- lang: js -->
                         "desc":dataForWeixin.desc,
+                        <!-- lang: js -->
                         "title":dataForWeixin.title
+                        <!-- lang: js -->
                     }, function(res){});
+                    <!-- lang: js -->
                 });
-                // 分享到微博;
+                <!-- lang: js -->
                 WeixinJSBridge.on('menu:share:weibo', function(argv){
+                    <!-- lang: js -->
                     WeixinJSBridge.invoke('shareWeibo',{
-                        "content":dataForWeixin.title+' '+dataForWeixin.url,
+                        <!-- lang: js -->
+                        "content":dataForWeixin.title,
+                        <!-- lang: js -->
                         "url":dataForWeixin.url
-                    }, function(res){});
+                        <!-- lang: js -->
+                    }, function(res){(dataForWeixin.callback)();});
+                    <!-- lang: js -->
                 });
-                // 分享到Facebook
+                <!-- lang: js -->
                 WeixinJSBridge.on('menu:share:facebook', function(argv){
+                    <!-- lang: js -->
+                    (dataForWeixin.callback)();
+                    <!-- lang: js -->
                     WeixinJSBridge.invoke('shareFB',{
-                        "img_url":dataForWeixin.img,
+                        <!-- lang: js -->
+                        "img_url":dataForWeixin.TLImg,
+                        <!-- lang: js -->
                         "img_width":"120",
+                        <!-- lang: js -->
                         "img_height":"120",
+                        <!-- lang: js -->
                         "link":dataForWeixin.url,
+                        <!-- lang: js -->
                         "desc":dataForWeixin.desc,
+                        <!-- lang: js -->
                         "title":dataForWeixin.title
+                        <!-- lang: js -->
                     }, function(res){});
+                    <!-- lang: js -->
                 });
+                <!-- lang: js -->
             };
+            <!-- lang: js -->
             if(document.addEventListener){
+                <!-- lang: js -->
                 document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+                <!-- lang: js -->
             }else if(document.attachEvent){
+                <!-- lang: js -->
                 document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
+                <!-- lang: js -->
                 document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
+                <!-- lang: js -->
             }
+            <!-- lang: js -->
         })();
     </script>
+
+
+
+
 </head>
 <body>
 <!--遮罩层  start-->
 <div id="popDiv" class="mydiv" style="display:none;">
-    <img src="__UPLOAD__/icon.jpg" width="0" height="0" border="0"/>
+    <img src="__UPLOAD__/icon_b.jpg" width="0" height="0" border="0"/>
     <img src="__PUBLIC__/index/images/row.png" border="0"/>
     <div>
         <a href="javascript:closeBg()" class="btn_del">
